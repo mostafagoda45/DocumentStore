@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<h1>Upload file</h1>
+
+<form method="POST" action="/upload" enctype="multipart/form-data">
+    <input type="file" name="file" /><br/><br/>
+    <input type="submit" value="upload" />
+</form>
+
+<h1>Download file (Enter the name of file with extension)</h1>
+<form method="POST" action="/download" enctype="multipart/form-data">
+    <input type="text" name="fileToDownload" /><br/><br/>
+    <input type="submit" value="Download" />
+</form>
+
+</body>
+</html>

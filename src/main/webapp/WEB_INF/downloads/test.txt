@@ -1,0 +1,19 @@
+{
+    "blood pressure": {
+        "date": "2017-09-09",
+        "systolic": 120,
+        "diastolic": 80
+    },
+    "body temperature": {
+        "date": "2017-09-12",
+        "celsius": 33
+    },
+    "heart rate": {
+        "date": "2017-09-12",
+        "bpm": 7777
+    },
+    "respiratory rate": {
+        "date": "2017-09-12",
+        "bpm": 12
+    }
+}
